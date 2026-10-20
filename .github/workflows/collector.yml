@@ -11,6 +11,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Show Folder Structure
+        run: |
+          pwd
+          ls -la
+          find . -maxdepth 3
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -18,14 +24,3 @@ jobs:
 
       - name: Run Collector
         run: node collector/collector.js
-
-      - name: Commit updated stories
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          git add CorvusIntel/data/stories.json
-
-          git diff --cached --quiet || git commit -m "Update stories"
-
-          git push
