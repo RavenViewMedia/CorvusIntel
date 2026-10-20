@@ -19,7 +19,7 @@ async function run() {
     }));
 
     fs.writeFileSync(
-        "./data/stories.json",
+        "../data/stories.json",
         JSON.stringify(stories, null, 2)
     );
 
