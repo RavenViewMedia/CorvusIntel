@@ -1,0 +1,16 @@
+name: Corvus Collector
+
+on:
+  workflow_dispatch:
+
+jobs:
+  collector:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Corvus Online
+        run: |
+          echo "Corvus collector is running."

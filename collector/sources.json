@@ -1,0 +1,26 @@
+[
+  {
+    "name": "USGS Earthquakes",
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+    "enabled": true,
+    "priority": "world"
+  },
+  {
+    "name": "NOAA Alerts",
+    "url": "https://api.weather.gov/alerts/active",
+    "enabled": true,
+    "priority": "high"
+  },
+  {
+    "name": "CISA Alerts",
+    "url": "https://www.cisa.gov/news.xml",
+    "enabled": true,
+    "priority": "critical"
+  },
+  {
+    "name": "FBI News",
+    "url": "https://www.fbi.gov/news/press-releases/rss.xml",
+    "enabled": true,
+    "priority": "high"
+  }
+]

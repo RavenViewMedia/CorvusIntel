@@ -8,7 +8,11 @@ async function loadStories() {
         <h2>🟠 High Priority</h2>
     `;
 
+    const sources = new Set();
+
     stories.forEach(story => {
+        sources.add(story.source);
+
         highPriority.innerHTML += `
             <div class="story">
                 <h3>${story.priority} ${story.title}</h3>
@@ -22,6 +26,9 @@ async function loadStories() {
             </div>
         `;
     });
+
+    document.getElementById("storyCount").textContent = stories.length;
+    document.getElementById("sourceCount").textContent = sources.size;
 }
 
 loadStories();
