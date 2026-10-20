@@ -1,14 +1,19 @@
-console.log("==================================");
-console.log(" CORVUS INTELLIGENCE COLLECTOR");
-console.log("==================================");
+const fs = require("fs");
+
+console.log("Corvus Collector Starting...");
 
 const stories = [
-    {
-        title: "Collector Online",
-        category: "System",
-        priority: "high",
-        timestamp: new Date().toISOString()
-    }
+  {
+    title: "Collector Test",
+    source: "GitHub Action",
+    priority: "high",
+    timestamp: new Date().toISOString()
+  }
 ];
 
-console.log(stories);
+fs.writeFileSync(
+  "./CorvusIntel/data/stories.json",
+  JSON.stringify(stories, null, 2)
+);
+
+console.log("Stories saved.");
