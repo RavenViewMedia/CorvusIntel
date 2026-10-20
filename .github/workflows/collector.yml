@@ -8,10 +8,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - run: node collector/collector.js
+      - name: Run Collector
+        run: node collector/collector.js
+
+      - name: Commit updated stories
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add CorvusIntel/data/stories.json
+
+          git diff --cached --quiet || git commit -m "Update stories"
+
+          git push
