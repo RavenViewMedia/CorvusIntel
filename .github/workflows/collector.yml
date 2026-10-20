@@ -11,6 +11,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Corvus Online
-        run: |
-          echo "Corvus collector is running."
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Collector
+        run: node collector/collector.js
