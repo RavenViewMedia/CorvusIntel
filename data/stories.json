@@ -1,0 +1,82 @@
+[
+  {
+    "priority": "🟢",
+    "title": "M 2.5 - 17 km W of Alberto Oviedo Mota, B.C., MX",
+    "summary": "Magnitude 2.45 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 4:43:48 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 0.9 - 32 km NNW of Beluga, Alaska",
+    "summary": "Magnitude 0.9 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 4:37:36 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 1.1 - 10 km E of Angwin, CA",
+    "summary": "Magnitude 1.12 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 4:28:40 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 0.9 - 3 km NNW of The Geysers, CA",
+    "summary": "Magnitude 0.93 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 4:25:32 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 1.0 - 3 km NW of The Geysers, CA",
+    "summary": "Magnitude 1.03 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 4:17:35 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 1.6 - 32 km NW of Willow, Alaska",
+    "summary": "Magnitude 1.6 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 4:16:51 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 5.1 - 72 km ENE of Noda, Japan",
+    "summary": "Magnitude 5.1 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 4:07:51 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 0.6 - 23 km ESE of Anza, CA",
+    "summary": "Magnitude 0.63 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 4:03:42 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 1.1 - 53 km W of Salamatof, Alaska",
+    "summary": "Magnitude 1.1 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 4:01:52 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 0.9 - 8 km SSW of Idyllwild, CA",
+    "summary": "Magnitude 0.9 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 3:57:46 PM"
+  }
+]
