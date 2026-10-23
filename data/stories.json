@@ -1,82 +1,82 @@
 [
   {
     "priority": "🟢",
-    "title": "M 2.5 - 17 km W of Alberto Oviedo Mota, B.C., MX",
-    "summary": "Magnitude 2.45 earthquake detected.",
+    "title": "M 2.8 - 14 km NNW of Beluga, Alaska",
+    "summary": "Magnitude 2.8 earthquake detected.",
     "category": "Earthquake",
     "source": "USGS",
-    "time": "10/23/2026, 4:43:48 PM"
+    "time": "10/23/2026, 10:29:12 PM"
   },
   {
     "priority": "🟢",
-    "title": "M 0.9 - 32 km NNW of Beluga, Alaska",
-    "summary": "Magnitude 0.9 earthquake detected.",
+    "title": "M 0.9 - 10 km N of Victorville, CA",
+    "summary": "Magnitude 0.94 earthquake detected.",
     "category": "Earthquake",
     "source": "USGS",
-    "time": "10/23/2026, 4:37:36 PM"
+    "time": "10/23/2026, 10:21:44 PM"
   },
   {
     "priority": "🟢",
-    "title": "M 1.1 - 10 km E of Angwin, CA",
-    "summary": "Magnitude 1.12 earthquake detected.",
+    "title": "M 0.8 - 7 km NW of San Jacinto, CA",
+    "summary": "Magnitude 0.83 earthquake detected.",
     "category": "Earthquake",
     "source": "USGS",
-    "time": "10/23/2026, 4:28:40 PM"
+    "time": "10/23/2026, 10:08:22 PM"
   },
   {
     "priority": "🟢",
-    "title": "M 0.9 - 3 km NNW of The Geysers, CA",
-    "summary": "Magnitude 0.93 earthquake detected.",
-    "category": "Earthquake",
-    "source": "USGS",
-    "time": "10/23/2026, 4:25:32 PM"
-  },
-  {
-    "priority": "🟢",
-    "title": "M 1.0 - 3 km NW of The Geysers, CA",
-    "summary": "Magnitude 1.03 earthquake detected.",
-    "category": "Earthquake",
-    "source": "USGS",
-    "time": "10/23/2026, 4:17:35 PM"
-  },
-  {
-    "priority": "🟢",
-    "title": "M 1.6 - 32 km NW of Willow, Alaska",
-    "summary": "Magnitude 1.6 earthquake detected.",
-    "category": "Earthquake",
-    "source": "USGS",
-    "time": "10/23/2026, 4:16:51 PM"
-  },
-  {
-    "priority": "🟢",
-    "title": "M 5.1 - 72 km ENE of Noda, Japan",
+    "title": "M 5.1 - 203 km NW of Port-Olry, Vanuatu",
     "summary": "Magnitude 5.1 earthquake detected.",
     "category": "Earthquake",
     "source": "USGS",
-    "time": "10/23/2026, 4:07:51 PM"
+    "time": "10/23/2026, 10:05:10 PM"
   },
   {
     "priority": "🟢",
-    "title": "M 0.6 - 23 km ESE of Anza, CA",
-    "summary": "Magnitude 0.63 earthquake detected.",
+    "title": "M 0.8 - 3 km NW of Pinnacles, CA",
+    "summary": "Magnitude 0.82 earthquake detected.",
     "category": "Earthquake",
     "source": "USGS",
-    "time": "10/23/2026, 4:03:42 PM"
+    "time": "10/23/2026, 10:01:35 PM"
   },
   {
     "priority": "🟢",
-    "title": "M 1.1 - 53 km W of Salamatof, Alaska",
-    "summary": "Magnitude 1.1 earthquake detected.",
+    "title": "M 1.5 Explosion - 43 km SSE of Sandy Valley, Nevada",
+    "summary": "Magnitude 1.47 earthquake detected.",
     "category": "Earthquake",
     "source": "USGS",
-    "time": "10/23/2026, 4:01:52 PM"
+    "time": "10/23/2026, 10:01:10 PM"
   },
   {
     "priority": "🟢",
-    "title": "M 0.9 - 8 km SSW of Idyllwild, CA",
-    "summary": "Magnitude 0.9 earthquake detected.",
+    "title": "M 1.9 - 3 km E of Pāhala, Hawaii",
+    "summary": "Magnitude 1.88 earthquake detected.",
     "category": "Earthquake",
     "source": "USGS",
-    "time": "10/23/2026, 3:57:46 PM"
+    "time": "10/23/2026, 9:47:07 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 4.6 - 73 km ENE of Kinablangan, Philippines",
+    "summary": "Magnitude 4.6 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 9:41:04 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 0.7 - 3 km WSW of Anderson Springs, CA",
+    "summary": "Magnitude 0.72 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 9:30:28 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 1.7 Explosion - 59 km S of Kingston, Nevada",
+    "summary": "Magnitude 1.71 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 9:26:40 PM"
   }
 ]
