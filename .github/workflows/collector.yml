@@ -3,6 +3,9 @@ name: Corvus Collector
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   collector:
     runs-on: ubuntu-latest
@@ -10,17 +13,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Show Repository
-        run: |
-          echo "Current directory:"
-          pwd
-          echo ""
-          echo "Repository contents:"
-          ls -R
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Run Collector
         run: node collector/collector.js
+
+      - name: Show stories.json
+        run: cat data/stories.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/stories.json
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update stories"
+            git push
+          fi
