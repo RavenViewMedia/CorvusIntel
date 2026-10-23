@@ -23,8 +23,12 @@ async function run() {
         time: new Date(quake.properties.time).toLocaleString("en-US")
     }));
 
-    // Always write to the repository's data folder
-    const outputFile = path.join(__dirname, "..", "data", "stories.json");
+    const dataDir = path.join(__dirname, "..", "data");
+
+    // Create the folder if it doesn't exist
+    fs.mkdirSync(dataDir, { recursive: true });
+
+    const outputFile = path.join(dataDir, "stories.json");
 
     fs.writeFileSync(
         outputFile,
@@ -33,7 +37,6 @@ async function run() {
     );
 
     console.log(`Saved ${stories.length} earthquake stories.`);
-    console.log(`Output written to: ${outputFile}`);
 }
 
 run().catch(err => {
