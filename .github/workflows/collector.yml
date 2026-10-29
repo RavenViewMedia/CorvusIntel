@@ -3,24 +3,36 @@ name: Corvus Collector
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   collector:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Show Folder Structure
-        run: |
-          pwd
-          ls -la
-          find . -maxdepth 3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Run Collector
         run: node collector/collector.js
+
+      - name: Show stories.json
+        run: cat data/stories.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/stories.json
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update stories"
+            git push
+          fi

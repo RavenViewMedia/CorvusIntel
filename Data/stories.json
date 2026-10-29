@@ -1,18 +1,1 @@
-[
-  {
-    "priority": "🔴",
-    "title": "Corvus Online",
-    "summary": "The intelligence center is operational and ready to receive intelligence.",
-    "category": "System",
-    "source": "Corvus",
-    "time": "3:16 PM"
-  },
-  {
-    "priority": "🟠",
-    "title": "Sample Intelligence Story",
-    "summary": "This is where live intelligence will appear once the collector is connected.",
-    "category": "Military",
-    "source": "Reuters",
-    "time": "2:55 PM"
-  }
-]
+[]

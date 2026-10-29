@@ -1,0 +1,82 @@
+[
+  {
+    "priority": "🟢",
+    "title": "M 2.8 - 14 km NNW of Beluga, Alaska",
+    "summary": "Magnitude 2.8 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 10:29:12 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 0.9 - 10 km N of Victorville, CA",
+    "summary": "Magnitude 0.94 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 10:21:44 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 0.8 - 7 km NW of San Jacinto, CA",
+    "summary": "Magnitude 0.83 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 10:08:22 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 5.1 - 203 km NW of Port-Olry, Vanuatu",
+    "summary": "Magnitude 5.1 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 10:05:10 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 0.8 - 3 km NW of Pinnacles, CA",
+    "summary": "Magnitude 0.82 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 10:01:35 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 1.5 Explosion - 43 km SSE of Sandy Valley, Nevada",
+    "summary": "Magnitude 1.47 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 10:01:10 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 1.9 - 3 km E of Pāhala, Hawaii",
+    "summary": "Magnitude 1.88 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 9:47:07 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 4.6 - 73 km ENE of Kinablangan, Philippines",
+    "summary": "Magnitude 4.6 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 9:41:04 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 0.7 - 3 km WSW of Anderson Springs, CA",
+    "summary": "Magnitude 0.72 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 9:30:28 PM"
+  },
+  {
+    "priority": "🟢",
+    "title": "M 1.7 Explosion - 59 km S of Kingston, Nevada",
+    "summary": "Magnitude 1.71 earthquake detected.",
+    "category": "Earthquake",
+    "source": "USGS",
+    "time": "10/23/2026, 9:26:40 PM"
+  }
+]
