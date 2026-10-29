@@ -1,30 +1,19 @@
 const fs = require("fs");
 const path = require("path");
 
+const { getUSGSStories } = require("./parsers/usgs");
+
 async function run() {
-    console.log("Corvus Collector Starting...");
+    console.log("==================================");
+    console.log("CORVUS COLLECTOR STARTING");
+    console.log("==================================");
 
-    const response = await fetch(
-        "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
-    );
+    const stories = await getUSGSStories();
 
-    if (!response.ok) {
-        throw new Error(`USGS request failed: ${response.status}`);
-    }
+    const dataDir = path.join(__dirname, "..", "data");
+    fs.mkdirSync(dataDir, { recursive: true });
 
-    const data = await response.json();
-
-    const stories = data.features.slice(0, 10).map(quake => ({
-        priority: "🟢",
-        title: quake.properties.title,
-        summary: `Magnitude ${quake.properties.mag} earthquake detected.`,
-        category: "Earthquake",
-        source: "USGS",
-        time: new Date(quake.properties.time).toLocaleString("en-US")
-    }));
-
-    // Always write to the repository's data folder
-    const outputFile = path.join(__dirname, "..", "data", "stories.json");
+    const outputFile = path.join(dataDir, "stories.json");
 
     fs.writeFileSync(
         outputFile,
@@ -32,8 +21,8 @@ async function run() {
         "utf8"
     );
 
-    console.log(`Saved ${stories.length} earthquake stories.`);
-    console.log(`Output written to: ${outputFile}`);
+    console.log(`Saved ${stories.length} stories.`);
+    console.log(`Output: ${outputFile}`);
 }
 
 run().catch(err => {
